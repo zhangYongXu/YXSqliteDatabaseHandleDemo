@@ -22,6 +22,8 @@
 		CA64C7641C88250D0045475A /* UserModel.json in Resources */ = {isa = PBXBuildFile; fileRef = CA64C75F1C88250D0045475A /* UserModel.json */; };
 		CA64C7651C88250D0045475A /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CA64C7601C88250D0045475A /* UserModel.m */; };
 		CA64C7671C8825F00045475A /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CA64C7661C8825F00045475A /* libsqlite3.tbd */; };
+		CA64C76C1C882EC30045475A /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CA64C7691C882EC30045475A /* SVProgressHUD.bundle */; };
+		CA64C76D1C882EC30045475A /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = CA64C76B1C882EC30045475A /* SVProgressHUD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +70,9 @@
 		CA64C75F1C88250D0045475A /* UserModel.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = UserModel.json; sourceTree = "<group>"; };
 		CA64C7601C88250D0045475A /* UserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserModel.m; sourceTree = "<group>"; };
 		CA64C7661C8825F00045475A /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		CA64C7691C882EC30045475A /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		CA64C76A1C882EC30045475A /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		CA64C76B1C882EC30045475A /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +127,7 @@
 		CA64C7181C8824280045475A /* YXDatabaseHandleDemo */ = {
 			isa = PBXGroup;
 			children = (
+				CA64C7681C882EC30045475A /* SVProgressHUD */,
 				CA64C7571C88250D0045475A /* model */,
 				CA64C74C1C8824770045475A /* AppDelegate.h */,
 				CA64C74D1C8824770045475A /* AppDelegate.m */,
@@ -183,6 +189,16 @@
 			children = (
 			);
 			path = root;
+			sourceTree = "<group>";
+		};
+		CA64C7681C882EC30045475A /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				CA64C7691C882EC30045475A /* SVProgressHUD.bundle */,
+				CA64C76A1C882EC30045475A /* SVProgressHUD.h */,
+				CA64C76B1C882EC30045475A /* SVProgressHUD.m */,
+			);
+			path = SVProgressHUD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,6 +305,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA64C7541C8824810045475A /* Main.storyboard in Resources */,
+				CA64C76C1C882EC30045475A /* SVProgressHUD.bundle in Resources */,
 				CA64C7291C8824280045475A /* LaunchScreen.storyboard in Resources */,
 				CA64C7631C88250D0045475A /* EmployeeModel_table_mappingFile.plist in Resources */,
 				CA64C7641C88250D0045475A /* UserModel.json in Resources */,
@@ -320,6 +337,7 @@
 				CA64C7621C88250D0045475A /* EmployeeModel.m in Sources */,
 				CA64C7511C8824770045475A /* ViewController.m in Sources */,
 				CA64C7651C88250D0045475A /* UserModel.m in Sources */,
+				CA64C76D1C882EC30045475A /* SVProgressHUD.m in Sources */,
 				CA64C7611C88250D0045475A /* CompanyModel.m in Sources */,
 				CA64C7501C8824770045475A /* AppDelegate.m in Sources */,
 				CA64C71B1C8824280045475A /* main.m in Sources */,
@@ -572,6 +590,7 @@
 				CA64C7451C8824280045475A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CA64C7461C8824280045475A /* Build configuration list for PBXNativeTarget "YXDatabaseHandleDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -580,6 +599,7 @@
 				CA64C7481C8824280045475A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CA64C7491C8824280045475A /* Build configuration list for PBXNativeTarget "YXDatabaseHandleDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -588,6 +608,7 @@
 				CA64C74B1C8824280045475A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

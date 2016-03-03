@@ -11,6 +11,7 @@
 #import <YXDatabaseHandleLib/YXDatabaseHandle+Select.h>
 #import "AppDelegate.h"
 #import "UserModel.h"
+#import "SVProgressHUD.h"
 @interface ViewController ()
 
 @property (weak, nonatomic) IBOutlet UITextView *textView;
@@ -48,6 +49,7 @@
             }
         }
     }];
+    [SVProgressHUD showSuccessWithStatus:@"保存成功"];
 
 }
 - (IBAction)readBtn:(id)sender {
