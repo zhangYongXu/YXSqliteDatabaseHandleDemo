@@ -1,0 +1,6 @@
+framework module YXDatabaseHandleLib {
+  umbrella header "YXDatabaseHandleLib.h"
+
+  export *
+  module * { export * }
+}

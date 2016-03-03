@@ -8,13 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		CA64C71B1C8824280045475A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA64C71A1C8824280045475A /* main.m */; };
-		CA64C71E1C8824280045475A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA64C71D1C8824280045475A /* AppDelegate.m */; };
-		CA64C7211C8824280045475A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA64C7201C8824280045475A /* ViewController.m */; };
-		CA64C7241C8824280045475A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA64C7221C8824280045475A /* Main.storyboard */; };
 		CA64C7261C8824280045475A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA64C7251C8824280045475A /* Assets.xcassets */; };
 		CA64C7291C8824280045475A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA64C7271C8824280045475A /* LaunchScreen.storyboard */; };
 		CA64C7341C8824280045475A /* YXDatabaseHandleDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA64C7331C8824280045475A /* YXDatabaseHandleDemoTests.m */; };
 		CA64C73F1C8824280045475A /* YXDatabaseHandleDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA64C73E1C8824280045475A /* YXDatabaseHandleDemoUITests.m */; };
+		CA64C7501C8824770045475A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA64C74D1C8824770045475A /* AppDelegate.m */; };
+		CA64C7511C8824770045475A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA64C74F1C8824770045475A /* ViewController.m */; };
+		CA64C7541C8824810045475A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA64C7521C8824810045475A /* Main.storyboard */; };
+		CA64C7561C88248C0045475A /* YXDatabaseHandleLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA64C7551C88248C0045475A /* YXDatabaseHandleLib.framework */; };
+		CA64C7611C88250D0045475A /* CompanyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CA64C7591C88250D0045475A /* CompanyModel.m */; };
+		CA64C7621C88250D0045475A /* EmployeeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CA64C75B1C88250D0045475A /* EmployeeModel.m */; };
+		CA64C7631C88250D0045475A /* EmployeeModel_table_mappingFile.plist in Resources */ = {isa = PBXBuildFile; fileRef = CA64C75C1C88250D0045475A /* EmployeeModel_table_mappingFile.plist */; };
+		CA64C7641C88250D0045475A /* UserModel.json in Resources */ = {isa = PBXBuildFile; fileRef = CA64C75F1C88250D0045475A /* UserModel.json */; };
+		CA64C7651C88250D0045475A /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CA64C7601C88250D0045475A /* UserModel.m */; };
+		CA64C7671C8825F00045475A /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CA64C7661C8825F00045475A /* libsqlite3.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,11 +44,6 @@
 /* Begin PBXFileReference section */
 		CA64C7161C8824280045475A /* YXDatabaseHandleDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YXDatabaseHandleDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA64C71A1C8824280045475A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CA64C71C1C8824280045475A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		CA64C71D1C8824280045475A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CA64C71F1C8824280045475A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CA64C7201C8824280045475A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		CA64C7231C8824280045475A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CA64C7251C8824280045475A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA64C7281C8824280045475A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA64C72A1C8824280045475A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +53,21 @@
 		CA64C73A1C8824280045475A /* YXDatabaseHandleDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YXDatabaseHandleDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA64C73E1C8824280045475A /* YXDatabaseHandleDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXDatabaseHandleDemoUITests.m; sourceTree = "<group>"; };
 		CA64C7401C8824280045475A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA64C74C1C8824770045475A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CA64C74D1C8824770045475A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CA64C74E1C8824770045475A /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CA64C74F1C8824770045475A /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CA64C7531C8824810045475A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA64C7551C88248C0045475A /* YXDatabaseHandleLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = YXDatabaseHandleLib.framework; sourceTree = "<group>"; };
+		CA64C7581C88250D0045475A /* CompanyModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompanyModel.h; sourceTree = "<group>"; };
+		CA64C7591C88250D0045475A /* CompanyModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompanyModel.m; sourceTree = "<group>"; };
+		CA64C75A1C88250D0045475A /* EmployeeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmployeeModel.h; sourceTree = "<group>"; };
+		CA64C75B1C88250D0045475A /* EmployeeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmployeeModel.m; sourceTree = "<group>"; };
+		CA64C75C1C88250D0045475A /* EmployeeModel_table_mappingFile.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = EmployeeModel_table_mappingFile.plist; sourceTree = "<group>"; };
+		CA64C75E1C88250D0045475A /* UserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserModel.h; sourceTree = "<group>"; };
+		CA64C75F1C88250D0045475A /* UserModel.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = UserModel.json; sourceTree = "<group>"; };
+		CA64C7601C88250D0045475A /* UserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserModel.m; sourceTree = "<group>"; };
+		CA64C7661C8825F00045475A /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +75,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA64C7671C8825F00045475A /* libsqlite3.tbd in Frameworks */,
+				CA64C7561C88248C0045475A /* YXDatabaseHandleLib.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +100,8 @@
 		CA64C70D1C8824270045475A = {
 			isa = PBXGroup;
 			children = (
+				CA64C7661C8825F00045475A /* libsqlite3.tbd */,
+				CA64C7551C88248C0045475A /* YXDatabaseHandleLib.framework */,
 				CA64C7181C8824280045475A /* YXDatabaseHandleDemo */,
 				CA64C7321C8824280045475A /* YXDatabaseHandleDemoTests */,
 				CA64C73D1C8824280045475A /* YXDatabaseHandleDemoUITests */,
@@ -101,11 +122,12 @@
 		CA64C7181C8824280045475A /* YXDatabaseHandleDemo */ = {
 			isa = PBXGroup;
 			children = (
-				CA64C71C1C8824280045475A /* AppDelegate.h */,
-				CA64C71D1C8824280045475A /* AppDelegate.m */,
-				CA64C71F1C8824280045475A /* ViewController.h */,
-				CA64C7201C8824280045475A /* ViewController.m */,
-				CA64C7221C8824280045475A /* Main.storyboard */,
+				CA64C7571C88250D0045475A /* model */,
+				CA64C74C1C8824770045475A /* AppDelegate.h */,
+				CA64C74D1C8824770045475A /* AppDelegate.m */,
+				CA64C74E1C8824770045475A /* ViewController.h */,
+				CA64C74F1C8824770045475A /* ViewController.m */,
+				CA64C7521C8824810045475A /* Main.storyboard */,
 				CA64C7251C8824280045475A /* Assets.xcassets */,
 				CA64C7271C8824280045475A /* LaunchScreen.storyboard */,
 				CA64C72A1C8824280045475A /* Info.plist */,
@@ -138,6 +160,29 @@
 				CA64C7401C8824280045475A /* Info.plist */,
 			);
 			path = YXDatabaseHandleDemoUITests;
+			sourceTree = "<group>";
+		};
+		CA64C7571C88250D0045475A /* model */ = {
+			isa = PBXGroup;
+			children = (
+				CA64C7581C88250D0045475A /* CompanyModel.h */,
+				CA64C7591C88250D0045475A /* CompanyModel.m */,
+				CA64C75A1C88250D0045475A /* EmployeeModel.h */,
+				CA64C75B1C88250D0045475A /* EmployeeModel.m */,
+				CA64C75C1C88250D0045475A /* EmployeeModel_table_mappingFile.plist */,
+				CA64C75D1C88250D0045475A /* root */,
+				CA64C75E1C88250D0045475A /* UserModel.h */,
+				CA64C7601C88250D0045475A /* UserModel.m */,
+				CA64C75F1C88250D0045475A /* UserModel.json */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		CA64C75D1C88250D0045475A /* root */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = root;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,9 +288,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA64C7541C8824810045475A /* Main.storyboard in Resources */,
 				CA64C7291C8824280045475A /* LaunchScreen.storyboard in Resources */,
+				CA64C7631C88250D0045475A /* EmployeeModel_table_mappingFile.plist in Resources */,
+				CA64C7641C88250D0045475A /* UserModel.json in Resources */,
 				CA64C7261C8824280045475A /* Assets.xcassets in Resources */,
-				CA64C7241C8824280045475A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,8 +317,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA64C7211C8824280045475A /* ViewController.m in Sources */,
-				CA64C71E1C8824280045475A /* AppDelegate.m in Sources */,
+				CA64C7621C88250D0045475A /* EmployeeModel.m in Sources */,
+				CA64C7511C8824770045475A /* ViewController.m in Sources */,
+				CA64C7651C88250D0045475A /* UserModel.m in Sources */,
+				CA64C7611C88250D0045475A /* CompanyModel.m in Sources */,
+				CA64C7501C8824770045475A /* AppDelegate.m in Sources */,
 				CA64C71B1C8824280045475A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,20 +358,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		CA64C7221C8824280045475A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CA64C7231C8824280045475A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CA64C7271C8824280045475A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				CA64C7281C8824280045475A /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		CA64C7521C8824810045475A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA64C7531C8824810045475A /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -344,7 +394,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Chen Chen (B7J4HWHK42)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Chen Chen (B7J4HWHK42)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -363,9 +414,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-objc",
+					"-all_load",
+				);
+				PROVISIONING_PROFILE = "63a78985-419c-4264-a81f-c66a32b461b7";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -387,7 +443,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Chen Chen (B7J4HWHK42)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Chen Chen (B7J4HWHK42)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -400,8 +457,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = (
+					"-objc",
+					"-all_load",
+				);
+				PROVISIONING_PROFILE = "63a78985-419c-4264-a81f-c66a32b461b7";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -411,10 +473,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Chen Chen (B7J4HWHK42)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Chen Chen (B7J4HWHK42)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = YXDatabaseHandleDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tzl.YXDatabaseHandleDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "63a78985-419c-4264-a81f-c66a32b461b7";
 			};
 			name = Debug;
 		};
@@ -422,10 +491,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Chen Chen (B7J4HWHK42)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Chen Chen (B7J4HWHK42)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = YXDatabaseHandleDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tzl.YXDatabaseHandleDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "63a78985-419c-4264-a81f-c66a32b461b7";
 			};
 			name = Release;
 		};
